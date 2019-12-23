@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WATERFALL_JAR=$WATERFALL_HOME/WATERFALL.jar
+WATERFALL_JAR=$WATERFALL_HOME/Waterfall.jar
 
 if [[ ! -e $WATERFALL_JAR ]]; then
     echo "Downloading ${WATERFALL_JAR_URL:=${WATERFALL_BASE_URL}/${WATERFALL_JOB_ID:-lastStableBuild}/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar}"
